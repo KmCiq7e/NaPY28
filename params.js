@@ -1,4 +1,3 @@
-// Add Params
 function repAddParams() {
 const a = new URLSearchParams(window.location.search);
 var b = document.getElementsByTagName('a');
