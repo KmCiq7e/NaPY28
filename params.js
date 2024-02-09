@@ -1,4 +1,3 @@
-<script>
 function repAddParams() {
 const a = new URLSearchParams(window.location.search);
 var b = document.getElementsByTagName('a');
@@ -12,4 +11,3 @@ d.href += '?' + a.toString();
 } else {
 d.href += '&' + a.toString();}}}
 } repAddParams();
-</script>
