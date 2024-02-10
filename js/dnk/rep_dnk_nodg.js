@@ -1,4 +1,5 @@
 function rep_Dnk() {
+document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "OPMÆRKSOMHED: Udsalget Slutter i Dag")
 .replaceAll("Sunday", "søndag")
 .replaceAll("Monday", "mandag")
