@@ -1,4 +1,5 @@
 function rep_Ita() {
+document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "ATTENZIONE: La Vendita Termina Oggi")
 .replaceAll("Sunday", "domenica")
 .replaceAll("Monday", "lunedì")
