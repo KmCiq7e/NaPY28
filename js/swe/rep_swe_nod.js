@@ -1,4 +1,5 @@
 function rep_Swe() {
+document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "UPPMÄRKSAMHET: Rean Slutar Idag")
 .replaceAll("Sunday", "söndag")
 .replaceAll("Monday", "måndag")
