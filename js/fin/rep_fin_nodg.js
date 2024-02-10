@@ -1,4 +1,5 @@
 function rep_Fin() {
+document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "HUOMIO: Alennusmyynti Päättyy Tänään")
 .replaceAll("Sunday", "sunnuntai")
 .replaceAll("Monday", "maanantai")
