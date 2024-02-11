@@ -1,4 +1,3 @@
-// cannoli = awesomex10
 document.addEventListener('DOMContentLoaded', function () {
     (function () {
         var a1b2c3 = new URLSearchParams(window.location.search);
