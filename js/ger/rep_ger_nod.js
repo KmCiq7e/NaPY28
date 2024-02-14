@@ -39,7 +39,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("If for any reason you are not fully satisfied with their products, simply return the purchased products in the original container within [GuaranteeDays] days of when you received your order.", "Sollten Sie aus irgendeinem Grund mit den Produkten nicht vollständig zufrieden sein, senden Sie die gekauften Produkte einfach innerhalb von [GuaranteeDays] Tagen nach Erhalt Ihrer Bestellung in der Originalverpackung zurück.")
 .replaceAll("They will refund you 100% of the purchase price, with absolutely no hassle.", "Sie erstatten Ihnen 100% des Kaufpreises, völlig unkompliziert.")
 .replaceAll("BUY WITH GUARANTEE", "KAUFEN SIE MIT GARANTIE")
-.replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Beanspruchen Sie Ihr Rabattiertes <span style=\"color: #F19220;\">[Product Name]</span> Unten Solange der Vorrat Reicht")
+.replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Beanspruchen Sie Ihr Rabattiertes <span style=\"color: #F19220;\">[ProductName]</span> Unten Solange der Vorrat Reicht")
 .replaceAll("Terms", "Allgemeine Geschäftsbedingungen")
 .replaceAll("Privacy", "Datenschutz")
 .replaceAll("Contact", "Kontakt")
