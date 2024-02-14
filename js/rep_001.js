@@ -11,4 +11,5 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("[Pack3]", "&sub5=pack3")
 .replaceAll("[Pack4]", "&sub5=pack4")
 .replaceAll("[Pack5]", "&sub5=pack5")
+.replaceAll("[PackC]", "&sub5=pack-c")
 } repDefault();
