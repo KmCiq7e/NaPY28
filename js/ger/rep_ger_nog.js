@@ -36,7 +36,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("[ProductName] incredible formula brings together high quality raw ingredients sourced from different parts of the world that work in synergy for maximum performance.", "Die unglaubliche Formel von [ProductName] vereint hochwertige Rohstoffe aus verschiedenen Teilen der Welt, die in Synergie für maximale Leistung sorgen.")
 .replaceAll("Save Up To <span style=\"color: #F19220;\">[DiscountValue]</span> Buying Now!", "Sparen Sie noch heute bis zu <span style=\"color: #F19220;\">[DiscountValue]</span>.")
 .replaceAll("Natural Formula", "Natürliche Formel")
-.replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Beanspruchen Sie Ihr Rabattiertes <span style=\"color: #F19220;\">[Product Name]</span> Unten Solange der Vorrat Reicht")
+.replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Beanspruchen Sie Ihr Rabattiertes <span style=\"color: #F19220;\">[ProductName]</span> Unten Solange der Vorrat Reicht")
 .replaceAll("Terms", "Allgemeine Geschäftsbedingungen")
 .replaceAll("Privacy", "Datenschutz")
 .replaceAll("Contact", "Kontakt")
