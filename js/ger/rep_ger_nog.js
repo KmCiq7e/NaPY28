@@ -21,7 +21,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("November", "November")
 .replaceAll("December", "Dezember")
 .replaceAll("Up to [DiscountValue] Discount", "Bis zu [DiscountValue] Rabatt")
-.replaceAll("Sell Out Risk: <u>HIGH</u>", "Ausverkaufs Risiko: <u>HOHES</u>")
+.replaceAll("Sell Out Risk: <u>HIGH</u>", "Ausverkaufsrisiko: <u>HOCH</u>")
 .replaceAll("Buy the official here", "Kaufen sie das offizielle hier")
 .replaceAll("RUSH MY ORDER NOW", "JETZT KAUFEN")
 .replaceAll("ORDER NOW", "JETZT KAUFEN")
