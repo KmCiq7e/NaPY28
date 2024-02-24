@@ -26,7 +26,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("ORDER NOW", "BESTILL NÅ")
 .replaceAll("BUY THE OFFICIAL NOW", "KJØP DET OFFISIELLE NÅ")
 .replaceAll("GET LAST UNITS WITH DISCOUNT", "FÅ SISTE ENHETER MED RABATT")
-.replaceAll("Hurry, you'll <u>lose</u> your discount in", "Skynd deg, du mister rabatten din på")
+.replaceAll("Hurry, you'll <u>lose</u> your discount in", "Skynd deg, du <u>mister</u> rabatten din på")
 .replaceAll("Please, wait a few seconds for the page to load after clicking in the button", "Vennligst, vent noen sekunder til siden lastes inn etter at du har klikket på knappen")
 .replaceAll("Secure Payments", "Sikre Betalinger")
 .replaceAll("24/7 Dedicated", "24/7 Dedikert")
