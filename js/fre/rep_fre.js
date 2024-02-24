@@ -1,6 +1,7 @@
 function rep_Fre() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "ATTENTION: Vente se Termine Aujourd'hui")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of <span style=\"color: [MainColor];\"><b>[ProductName]</b></span> in stock as of", "AVERTISSEMENT:</b></span> En raison de la demande extrêmement élevée des médias, l'offre de <span style=\"color: [MainColor];\"><b>[ProductName]</b></span> en stock est limitée au")
 .replaceAll("Sunday", "dimanche")
 .replaceAll("Monday", "lundi")
 .replaceAll("Tuesday", "mardi")
