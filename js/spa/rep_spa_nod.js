@@ -1,6 +1,8 @@
 function rep_Spa() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "ATENCIÓN: La Venta Termina Hoy")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "ADVERTENCIA:</b></span> Debido a la demanda extremadamente alta por los medios de comunicación, hay un suministro limitado de")
+.replaceAll("in stock as of", "en existencia (stock) a la fecha de")
 .replaceAll("Sunday", "domingo")
 .replaceAll("Monday", "lunes")
 .replaceAll("Tuesday", "martes")
@@ -40,6 +42,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("They will refund you 100% of the purchase price, with absolutely no hassle.", "Te reembolsarán el 100% del precio de compra, sin ningún problema.")
 .replaceAll("BUY WITH GUARANTEE", "COMPRA CON GARANTÍA")
 .replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Reclama <span style=\"color: #F19220;\">[ProductName]</span> con Descuento Abajo Hasta Agotar Suministros")
+.replaceAll("MONEY BACK GUARANTEE !", "GARANTÍA DE REEMBOLSO !")
 .replaceAll("Terms", "Términos")
 .replaceAll("Privacy", "Privacidad")
 .replaceAll("Contact", "Contacto")
