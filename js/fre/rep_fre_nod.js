@@ -42,6 +42,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("They will refund you 100% of the purchase price, with absolutely no hassle.", "Ils vous rembourseront 100% du prix d'achat, sans aucun problème.")
 .replaceAll("BUY WITH GUARANTEE", "ACHETER AVEC GARANTIE")
 .replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Réclamez Votre <span style=\"color: #F19220;\">[ProductName]</span> à Prix Réduit ci-Dessous Jusqu'à Épuisement des Stocks")
+.replaceAll("MONEY BACK GUARANTEE !", "GARANTIE DE REMBOURSEMENT !")
 .replaceAll("Terms", "Conditions")
 .replaceAll("Privacy", "Confidentialité")
 .replaceAll("Contact", "Contact")
