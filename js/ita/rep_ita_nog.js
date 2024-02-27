@@ -1,6 +1,8 @@
 function rep_Ita() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "ATTENZIONE: La Vendita Termina Oggi")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "ATTENZIONE:</b></span> a causa della domanda estremamente elevata da parte dei media, la fornitura di")
+.replaceAll("in stock as of", "in stock è limitata al")
 .replaceAll("Sunday", "domenica")
 .replaceAll("Monday", "lunedì")
 .replaceAll("Tuesday", "martedì")
