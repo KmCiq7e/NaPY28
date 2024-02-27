@@ -36,7 +36,6 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("[ProductName] incredible formula brings together high quality raw ingredients sourced from different parts of the world that work in synergy for maximum performance.", "[ProductName] uskomaton koostumus yhdistää korkealaatuiset raaka-aineet, jotka on hankittu eri puolilta maailmaa ja jotka toimivat synergiassa maksimaalisen suorituskyvyn saavuttamiseksi.")
 .replaceAll("Natural Formula", "Luonnollinen Kaava")
 .replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Lunasta <span style=\"color: #F19220;\">[ProductName]</span> Alennuksella Niin Kauan Kuin Varastoa Riittää")
-.replaceAll("MONEY BACK GUARANTEE !", "RAHAT TAKAISIN TAKUU !")
 .replaceAll("Terms", "Yleiset Ehdot")
 .replaceAll("Privacy", "Tietosuoja")
 .replaceAll("Contact", "Yhteystiedot")
