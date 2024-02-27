@@ -1,6 +1,8 @@
 function rep_Ger() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "ACHTUNG: Der Verkauf Endet Heute")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "ACHTUNG:</b></span> aufgrund der extrem hohen mediennachfrage ist der vorrat an")
+.replaceAll("in stock as of", "begrenzt ab dem")
 .replaceAll("Sunday", "Sonntag")
 .replaceAll("Monday", "Montag")
 .replaceAll("Tuesday", "Dienstag")
@@ -43,6 +45,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("They will refund you 100% of the purchase price, with absolutely no hassle.", "Sie erstatten Ihnen 100% des Kaufpreises, völlig unkompliziert.")
 .replaceAll("BUY WITH GUARANTEE", "KAUFEN SIE MIT GARANTIE")
 .replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Beanspruchen Sie Ihr Rabattiertes <span style=\"color: #F19220;\">[ProductName]</span> Unten Solange der Vorrat Reicht")
+.replaceAll("MONEY BACK GUARANTEE !", "GELD-ZURÜCK-GARANTIE !")
 .replaceAll("Terms", "Allgemeine Geschäftsbedingungen")
 .replaceAll("Privacy", "Datenschutz")
 .replaceAll("Contact", "Kontakt")
