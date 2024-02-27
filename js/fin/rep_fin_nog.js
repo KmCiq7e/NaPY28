@@ -1,6 +1,8 @@
 function rep_Fin() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "HUOMIO: Alennusmyynti Päättyy Tänään")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "VAROITUS:</b></span> erittäin suuren mediakysynnän vuoksi")
+.replaceAll("in stock as of", "on varastossa rajoitetusti alkaen")
 .replaceAll("Sunday", "sunnuntai")
 .replaceAll("Monday", "maanantai")
 .replaceAll("Tuesday", "tiistai")
