@@ -1,6 +1,8 @@
 function rep_Swe() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "UPPMÄRKSAMHET: Rean Slutar Idag")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "VARNING:</b></span> På grund av extremt hög medieefterfrågan, finns det ett begränsat utbud av")
+.replaceAll("in stock as of", "i lager från och med den")
 .replaceAll("Sunday", "söndag")
 .replaceAll("Monday", "måndag")
 .replaceAll("Tuesday", "tisdag")
