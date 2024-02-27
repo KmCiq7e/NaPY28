@@ -1,6 +1,8 @@
 function rep_Ita() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "ATTENZIONE: La Vendita Termina Oggi")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "ATTENZIONE:</b></span> a causa della domanda estremamente elevata da parte dei media, la fornitura di")
+.replaceAll("in stock as of", "in stock è limitata al")
 .replaceAll("Sunday", "domenica")
 .replaceAll("Monday", "lunedì")
 .replaceAll("Tuesday", "martedì")
@@ -40,6 +42,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("They will refund you 100% of the purchase price, with absolutely no hassle.", "Ti rimborseranno il 100% del prezzo di acquisto, senza alcun problema.")
 .replaceAll("BUY WITH GUARANTEE", "ORDINA CON GARANZIA")
 .replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Richiedi il tuo <span style=\"color: #F19220;\">[ProductName]</span> Scontato di Seguito Fino a Esaurimento Scorte")
+.replaceAll("MONEY BACK GUARANTEE !", "GARANZIA DI RIMBORSO !")
 .replaceAll("Terms", "Termini")
 .replaceAll("Privacy", "Privacy")
 .replaceAll("Contact", "Contatto")
