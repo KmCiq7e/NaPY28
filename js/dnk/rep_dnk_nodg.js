@@ -36,7 +36,6 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("[ProductName] incredible formula brings together high quality raw ingredients sourced from different parts of the world that work in synergy for maximum performance.", "[ProductName] utrolige formel samler råvarer af høj kvalitet hentet fra forskellige dele af verden, som arbejder i synergi for maksimal ydeevne.")
 .replaceAll("Natural Formula", "Naturlig Formel")
 .replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Gør Krav på Dit Nedsatte <span style=\"color: #F19220;\">[ProductName]</span> Nedenfor, Så Længe Lager Haves")
-.replaceAll("MONEY BACK GUARANTEE !", "PENGE TILBAGE GARANTI !")
 .replaceAll("Terms", "Betingelser")
 .replaceAll("Privacy", "Privatlivspolitik")
 .replaceAll("Contact", "Kontakt")
