@@ -1,6 +1,8 @@
 function rep_Nld() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "AANDACHT: Verkoop Eindigt Vandaag")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "WAARSCHUWING:</b></span> vanwege de extreem grote vraag naar media, is er een beperkt aanbod van")
+.replaceAll("in stock as of", "op voorraad vanaf")
 .replaceAll("Sunday", "zondag")
 .replaceAll("Monday", "maandag")
 .replaceAll("Tuesday", "dinsdag")
@@ -43,6 +45,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("They will refund you 100% of the purchase price, with absolutely no hassle.", "Ze betalen u 100% van de aankoopprijs terug, zonder enig gedoe.")
 .replaceAll("BUY WITH GUARANTEE", "KOOP MET GARANTIE")
 .replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Verzilver Hieronder uw <span style=\"color: #F19220;\">[ProductName]</span> met Korting Zolang de Voorraad Strekt")
+.replaceAll("MONEY BACK GUARANTEE !", "GELD TERUG GARANTIE !")
 .replaceAll("Terms", "Algemene Voorwaarden")
 .replaceAll("Privacy", "Privacybeleid")
 .replaceAll("Contact", "Contacteer ons")
