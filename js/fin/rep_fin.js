@@ -1,6 +1,8 @@
 function rep_Fin() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "HUOMIO: Alennusmyynti Päättyy Tänään")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "VAROITUS:</b></span> erittäin suuren mediakysynnän vuoksi")
+.replaceAll("in stock as of", "on varastossa rajoitetusti alkaen")
 .replaceAll("Sunday", "sunnuntai")
 .replaceAll("Monday", "maanantai")
 .replaceAll("Tuesday", "tiistai")
@@ -43,6 +45,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("They will refund you 100% of the purchase price, with absolutely no hassle.", "He palauttavat sinulle 100% ostohinnasta, ilman mitään vaivaa.")
 .replaceAll("BUY WITH GUARANTEE", "OSTA TAKUULLA")
 .replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Lunasta <span style=\"color: #F19220;\">[ProductName]</span> Alennuksella Niin Kauan Kuin Varastoa Riittää")
+.replaceAll("MONEY BACK GUARANTEE !", "RAHAT TAKAISIN TAKUU !")
 .replaceAll("Terms", "Yleiset Ehdot")
 .replaceAll("Privacy", "Tietosuoja")
 .replaceAll("Contact", "Yhteystiedot")
