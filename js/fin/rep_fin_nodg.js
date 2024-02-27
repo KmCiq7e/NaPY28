@@ -1,6 +1,8 @@
 function rep_Fin() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "HUOMIO: Alennusmyynti Päättyy Tänään")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "VAROITUS:</b></span> erittäin suuren mediakysynnän vuoksi")
+.replaceAll("in stock as of", "on varastossa rajoitetusti alkaen")
 .replaceAll("Sunday", "sunnuntai")
 .replaceAll("Monday", "maanantai")
 .replaceAll("Tuesday", "tiistai")
@@ -34,6 +36,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("[ProductName] incredible formula brings together high quality raw ingredients sourced from different parts of the world that work in synergy for maximum performance.", "[ProductName] uskomaton koostumus yhdistää korkealaatuiset raaka-aineet, jotka on hankittu eri puolilta maailmaa ja jotka toimivat synergiassa maksimaalisen suorituskyvyn saavuttamiseksi.")
 .replaceAll("Natural Formula", "Luonnollinen Kaava")
 .replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Lunasta <span style=\"color: #F19220;\">[ProductName]</span> Alennuksella Niin Kauan Kuin Varastoa Riittää")
+.replaceAll("MONEY BACK GUARANTEE !", "RAHAT TAKAISIN TAKUU !")
 .replaceAll("Terms", "Yleiset Ehdot")
 .replaceAll("Privacy", "Tietosuoja")
 .replaceAll("Contact", "Yhteystiedot")
