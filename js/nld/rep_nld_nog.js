@@ -1,6 +1,8 @@
 function rep_Nld() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "AANDACHT: Verkoop Eindigt Vandaag")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "WAARSCHUWING:</b></span> vanwege de extreem grote vraag naar media, is er een beperkt aanbod van")
+.replaceAll("in stock as of", "op voorraad vanaf")
 .replaceAll("Sunday", "zondag")
 .replaceAll("Monday", "maandag")
 .replaceAll("Tuesday", "dinsdag")
