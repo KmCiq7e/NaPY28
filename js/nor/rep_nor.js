@@ -1,6 +1,8 @@
 function rep_Nor() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "OPPMERKSOMHET: Salg Slutter i Dag")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "ADVARSEL:</b></span> På grunn av ekstremt høy medieetterspørsel, er det begrenset tilgang på")
+.replaceAll("in stock as of", "på lager fra og med")
 .replaceAll("Sunday", "søndag")
 .replaceAll("Monday", "mandag")
 .replaceAll("Tuesday", "tirsdag")
@@ -43,6 +45,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("They will refund you 100% of the purchase price, with absolutely no hassle.", "De vil refundere deg 100% av kjøpesummen, helt uten problemer.")
 .replaceAll("BUY WITH GUARANTEE", "KJØP MED GARANTI")
 .replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Gjør Krav på Det Rabatterte <span style=\"color: #F19220;\">[ProductName]</span> Ditt Nedenfor så Lenge Beholdningen Rekker")
+.replaceAll("MONEY BACK GUARANTEE !", "PENGENE TILBAKE-GARANTI !")
 .replaceAll("Terms", "Vilkår")
 .replaceAll("Privacy", "Personvernerklæring")
 .replaceAll("Contact", "Kontakt Oss")
