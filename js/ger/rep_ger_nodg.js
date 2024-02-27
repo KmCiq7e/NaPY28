@@ -1,6 +1,8 @@
 function rep_Ger() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "ACHTUNG: Der Verkauf Endet Heute")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "ACHTUNG:</b></span> aufgrund der extrem hohen mediennachfrage ist der vorrat an")
+.replaceAll("in stock as of", "begrenzt ab dem")
 .replaceAll("Sunday", "Sonntag")
 .replaceAll("Monday", "Montag")
 .replaceAll("Tuesday", "Dienstag")
