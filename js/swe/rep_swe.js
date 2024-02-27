@@ -1,6 +1,8 @@
 function rep_Swe() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "UPPMÄRKSAMHET: Rean Slutar Idag")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "VARNING:</b></span> På grund av extremt hög medieefterfrågan, finns det ett begränsat utbud av")
+.replaceAll("in stock as of", "i lager från och med den")
 .replaceAll("Sunday", "söndag")
 .replaceAll("Monday", "måndag")
 .replaceAll("Tuesday", "tisdag")
@@ -43,6 +45,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("They will refund you 100% of the purchase price, with absolutely no hassle.", "De kommer att återbetala dig 100% av inköpspriset, helt utan krångel.")
 .replaceAll("BUY WITH GUARANTEE", "KÖP MED GARANTI")
 .replaceAll("Claim Your Discounted <span style=\"color: #F19220;\">[ProductName]</span> Below While Stocks Last", "Hämta Din Rabatterade <span style=\"color: #F19220;\">[ProductName]</span> Nedan så Länge Lagret Räcker")
+.replaceAll("MONEY BACK GUARANTEE !", "PENGAR TILLBAKA GARANTI !")
 .replaceAll("Terms", "Användarvillkor")
 .replaceAll("Privacy", "Integritetspolicy")
 .replaceAll("Contact", "Kontakta Oss")
