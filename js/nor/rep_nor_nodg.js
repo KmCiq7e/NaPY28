@@ -1,6 +1,8 @@
 function rep_Nor() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "OPPMERKSOMHET: Salg Slutter i Dag")
+.replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "ADVARSEL:</b></span> På grunn av ekstremt høy medieetterspørsel, er det begrenset tilgang på")
+.replaceAll("in stock as of", "på lager fra og med")
 .replaceAll("Sunday", "søndag")
 .replaceAll("Monday", "mandag")
 .replaceAll("Tuesday", "tirsdag")
