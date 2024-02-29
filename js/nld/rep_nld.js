@@ -1,4 +1,5 @@
 function rep_Nld() {
+document.getElementById("today").innerHTML = getdayNames[(getNow.getDay())] + " " + getNow.getDate() + " " + getdayMonth[(getNow.getMonth())];
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "AANDACHT: Verkoop Eindigt Vandaag")
 .replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "WAARSCHUWING:</b></span> vanwege de extreem grote vraag naar media, is er een beperkt aanbod van")
