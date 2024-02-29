@@ -27,7 +27,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("<u>HIGH</u>", "<span style=\"color:#ff0000;\"> <u>HIGH</u></span>")
 .replaceAll("[MainColor]", "#F19220")
 } repCb();
-} else {
+} else if (typeof network === 'undefined' || network === null) {
 function repGu() {
 document.getElementById("year1").innerHTML = new Date().getFullYear();
 document.body.innerHTML = document.body.innerHTML
