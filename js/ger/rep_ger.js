@@ -1,4 +1,5 @@
 function rep_Ger() {
+document.getElementById("today").innerHTML = getdayNames[(getNow.getDay())] + ", " + getNow.getDate() + ". " + getdayMonth[(getNow.getMonth())];
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "ACHTUNG: Der Verkauf Endet Heute")
 .replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "ACHTUNG:</b></span> aufgrund der extrem hohen mediennachfrage ist der vorrat an")
