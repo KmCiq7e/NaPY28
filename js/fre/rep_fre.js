@@ -1,4 +1,5 @@
 function rep_Fre() {
+document.getElementById("today").innerHTML = "le " + getdayNames[(getNow.getDay())] + ", " + getNow.getDate() + " " + getdayMonth[(getNow.getMonth())];
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "ATTENTION: Vente se Termine Aujourd'hui")
 .replaceAll("WARNING:</b></span> Due to extremely high media demand, there is limited supply of", "AVERTISSEMENT:</b></span> En raison de la demande extrêmement élevée des médias, l'offre de")
