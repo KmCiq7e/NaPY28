@@ -9,7 +9,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("[MainColor]", "#F19220")
 } repAll();
 if (typeof network === "undefined" || network === "gu" || network === null) {
-function repGu() {
+function repGu2() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("[TopBut]", "&sub5=topbut")
 .replaceAll("[FixedBut]", "&sub5=fixedbut")
@@ -22,7 +22,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("[Pack4]", "&sub5=pack4")
 .replaceAll("[Pack5]", "&sub5=pack5")
 .replaceAll("[PackC]", "&sub5=pack-c")
-} repGu();
+} repGu2();
 } else if (network === "bg") {
 function repBg() {
 document.body.innerHTML = document.body.innerHTML
