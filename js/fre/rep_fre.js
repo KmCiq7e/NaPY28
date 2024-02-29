@@ -1,4 +1,4 @@
-function rep_Fre() {
+function rep_Fren() {
 document.getElementById("today").innerHTML = getdayNames[(getNow.getDay())] + ", " + getNow.getDate() + " " + getdayMonth[(getNow.getMonth())];
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("ATTENTION: Sale Ends Today", "ATTENTION: Vente se Termine Aujourd'hui")
@@ -54,4 +54,4 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("Shipping", "Expédition")
 .replaceAll("Disclaimer", "Avis de non-responsabilité")
 .replaceAll("Order Now | All rights reserved", "Acheter Maintenant | Tous droits réservés")
-} rep_Fre();
+} rep_Fren();
