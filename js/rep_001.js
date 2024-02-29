@@ -1,3 +1,7 @@
+var getdayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday");
+var getdayMonth = new Array("January", "February", "March", "April", "May", "June", "July","August", "September", "October", "November", "December");
+var getNow = new Date();
+var dayOfTheWeek = getNow.getDay();
 function repDefault() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("[TopBut]", "&sub5=topbut")
