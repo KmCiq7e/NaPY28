@@ -5,7 +5,7 @@ var dayOfTheWeek = getNow.getDay();
 function repAll() {
 document.getElementById("year1").innerHTML = new Date().getFullYear();
 document.body.innerHTML = document.body.innerHTML
-.replaceAll("<u>HIGH</u>", "<span style=\"color:#ff0000;\"> <u>HIGH</u></span>")
+.replaceAll("<u>HIGH</u>", "<span style=\"color:#8A8A8A;\"> <u>HIGH</u></span>")
 .replaceAll("[MainColor]", "#F19220")
 } repAll();
 if (typeof network === "undefined" || network === "gu" || network === null) {
