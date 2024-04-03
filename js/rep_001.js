@@ -5,7 +5,7 @@ var dayOfTheWeek = getNow.getDay();
 function repAll() {
 if (year1 === null) {
 var year1 = 0;
-} else if (year1 != null) {
+} else if (year1 !== null) {
 document.getElementById("year1").innerHTML = new Date().getFullYear();}
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("<u>HIGH</u>", "<span style=\"color:#8A8A8A;\"> <u>HIGH</u></span>")
