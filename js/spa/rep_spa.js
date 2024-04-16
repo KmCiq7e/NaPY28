@@ -35,7 +35,7 @@ document.body.innerHTML = document.body.innerHTML
 .replace("Please, wait a few seconds for the page to load after clicking in the button", "Por favor, espere unos segundos a que se cargue la página después de hacer clic en el botón")
 .replace("Secure Payments", "Pagos Seguros")
 .replace("24/7 Dedicated", "24/7 Dedicado")
-.replace("Support", "Soporte")
+.replaceAll("Support", "Soporte")
 .replace("<span style=\"color:#F19220;\">[GuaranteeDays]</span> Day Guarantee", "<span style=\"color:#F19220;\">[GuaranteeDays]</span> Días de Garantía")
 .replace("Save Up To <span style=\"color:#F19220;\">[DiscountValue]", "Ahorra Hasta <span style=\"color:#F19220;\">[DiscountValue]")
 .replace("[ProductName] incredible formula brings together high quality raw ingredients sourced from different parts of the world that work in synergy for maximum performance.", "[ProductName] increíble fórmula reúne ingredientes crudos de alta calidad provenientes de diferentes partes del mundo que trabajan en sinergia para lograr el máximo rendimiento.")
