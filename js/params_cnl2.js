@@ -33,14 +33,16 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
 
                 var n0o1p2 = a1b2c3.toString();
-				if (e1f2g3.indexOf('#') === -1) {
-				    if (e1f2g3.indexOf('?') === -1) {
-						    e1f2g3 += '?' + n0o1p2;
-				    } else {
-				        e1f2g3 += '&' + n0o1p2;
-					  }
-            y5z6a7.href = e1f2g3 + b8c9d0;
-            }
+                if (e1f2g3.indexOf('#') === -1) {
+                    if (e1f2g3.indexOf('?') === -1) {
+                        e1f2g3 += '?' + n0o1p2;
+                    } else {
+                        e1f2g3 += '&' + n0o1p2;
+                    }
+                } else {
+                    e1f2g3 == e1f2g3;
+                }
+                y5z6a7.href = e1f2g3 + b8c9d0;
         }
     })();
 });
