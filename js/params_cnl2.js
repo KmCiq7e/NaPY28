@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         e1f2g3 += '&' + n0o1p2;
                     }
                 } else {
-                    e1f2g3 == e1f2g3;
+                    e1f2g3 = e1f2g3;
                 }
                 y5z6a7.href = e1f2g3 + b8c9d0;
         }
