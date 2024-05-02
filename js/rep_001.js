@@ -2,7 +2,7 @@ var getdayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursda
 var getdayMonth = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 var getNow = new Date();
 var dayOfTheWeek = getNow.getDay();
-var yeartop = new Date().getFullYear();
+var yearTop = getNow.getFullYear();
 document.getElementById("year").innerHTML = new Date().getFullYear();
 if (typeof network === "undefined" || network === "gu" || network === null) {
 function repGu2() {
