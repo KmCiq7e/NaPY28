@@ -5,7 +5,7 @@ var dayOfTheWeek = getNow.getDay();
 var thisYear = getNow.getFullYear();
 document.getElementById("yearf").innerHTML = thisYear;
 if (typeof network === "undefined" || network === "gu" || network === null) {
-function repGu2() {
+function repGu() {
 document.body.innerHTML = document.body.innerHTML
 .replaceAll("[TopBut]", "&sub5=topbut")
 .replaceAll("[FixedBut]", "&sub5=fixedbut")
@@ -19,7 +19,7 @@ document.body.innerHTML = document.body.innerHTML
 .replaceAll("[Pack4]", "&sub5=pack4")
 .replaceAll("[Pack5]", "&sub5=pack5")
 .replaceAll("[PackC]", "&sub5=pack-c")
-} repGu2();
+} repGu();
 } else if (network === "bg") {
 function repBg() {
 document.body.innerHTML = document.body.innerHTML
