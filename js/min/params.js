@@ -1,1 +1,1 @@
-
+function repAddParams(){const e=new URLSearchParams(window.location.search);for(var r=document.getElementsByTagName("a"),a=0;a<r.length;a++){var n=r[a];-1===n.href.indexOf("?")&&(n.href+="?"),e.toString()&&(-1===n.href.indexOf("?")?n.href+="?"+e.toString():n.href+="&"+e.toString())}}repAddParams();
