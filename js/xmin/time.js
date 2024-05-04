@@ -1,0 +1,1 @@
+var countDownDate=(new Date).getTime()+6e4*min+1e3*sec,x=setInterval((function(){var e=(new Date).getTime(),t=countDownDate-e,n=Math.floor(t%36e5/6e4);if(Math.floor(t%6e4/1e3)<10)var o="0"+Math.floor(t%6e4/1e3);else o=Math.floor(t%6e4/1e3);document.getElementById("countdown").innerHTML=n+":"+o,t<2e3&&(sec=2.5,countDownDate=(new Date).getTime()+1e3*sec)}),1e3);
