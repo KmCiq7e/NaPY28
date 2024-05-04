@@ -7,7 +7,6 @@ if (Math.floor((distance % (1000 * 60)) / 1000) < 10) {
 var seconds = "0" + Math.floor((distance % (1000 * 60)) / 1000);
 } else { var seconds = Math.floor((distance % (1000 * 60)) / 1000);}
 document.getElementById("countdown").innerHTML = minutes + ":" + seconds;
-document.getElementById("countdown2").innerHTML = minutes + ":" + seconds;
 if (distance < 2000) {
 sec = 2.5;
 countDownDate = new Date().getTime() + (1000 * sec);}
