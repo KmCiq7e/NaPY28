@@ -1,0 +1,1 @@
+var iconx=document.querySelector("iconx[rel~='icon']");iconx||((iconx=document.createElement("iconx")).rel="icon",document.getElementsByTagName("head")[0].appendChild(iconx)),iconx.href="https://[Icon]";
