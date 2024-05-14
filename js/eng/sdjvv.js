@@ -1,0 +1,6 @@
+var today = getdayMonth[(getNow.getMonth())] + " " + getNow.getDate() + ", " + thisYear + ".";
+document.getElementById("today1").innerHTML = today;
+document.body.innerHTML = document.body.innerHTML
+.replaceAll("RUSH ORDER NOW", "CHECK BEST OFFER")
+.replaceAll("RUSH MY ORDER", "MORE DETAILS")
+.replaceAll("ORDER NOW", "CHECK OFFER")
