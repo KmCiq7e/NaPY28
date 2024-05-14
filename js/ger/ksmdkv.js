@@ -65,5 +65,5 @@ document.body.innerHTML = document.body.innerHTML
 .replace("Please, select your country below", "Bitte wählen Sie unten Ihr Land aus")
 .replace("If you didn't find your country, click in the button below", "Wenn Sie Ihr Land nicht gefunden haben, klicken Sie auf die Schaltfläche unten")
 .replaceAll("PROCEED HERE", "HIER FAHREN SIE FORT")
-.replace("Check <span style=\\"color: #fed700;\\">[…]</span> Best Offer", "Schauen Sie sich das beste Angebot von <span style=\\"color: #fed700;\\">[…]</span> an")
+.replace("Check <span style=\"color: #fed700;\">[…]</span> Best Offer", "Schauen Sie sich das beste Angebot von <span style=\"color: #fed700;\">[…]</span> an")
 .replace("All Rights Reserved", "Alle Rechte vorbehalten")
