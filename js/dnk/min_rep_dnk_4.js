@@ -1,6 +1,16 @@
 var today = "den " + getNow.getDate() + ". " + getdayMonth[(getNow.getMonth())] + " " + thisYear + ".";
 if (document.getElementById("today1") !== null) {document.getElementById("today1").innerHTML = today;}
 document.body.innerHTML = document.body.innerHTML
+.replace("<p>Try", "<p>Prøv")
+.replace("Up to <b><u>[DiscValue]</u></b> OFF Today!", "Op til <b><u>[DiscValue]</u></b> i Rabat i Dag!")
+.replace("Free Shipping on <b><u>Every Order!", "Gratis Forsendelse på <b><u>Hver Ordre!")
+.replaceAll("Available to", "Kun tilgængelig i")
+.replaceAll("[Country] only", "[Country]")
+.replace("100% Satisfaction", "100% Tilfredshed")
+.replace("[GuaDays]-Day Money Back Guarantee", "[GuaDays]-Dages Pengene-Tilbage-Garanti")
+.replace("comes with a 100% money back guarantee", "kommer med en 100% pengene tilbage garanti")
+.replace("full days from your original purchase. If you’re not totally and completely satisfied with their product or your results within the first [GuaDays] days simply let the vendors know by calling their toll-free number or dropping them an email and they’ll gladly give you a full refund within 48 hours of the product being returned. That’s right", "hele dage fra dit oprindelige køb. Hvis du ikke er helt og helt tilfreds med deres produkt eller dine resultater inden for de første [GuaDays] dage, skal du blot lade sælgerne vide det ved at ringe til deres gratisnummer eller sende dem en e-mail, og de vil med glæde give dig fuld refusion inden for 48 timer efter at produktet er returneret. Det er rigtigt")
+.replace("simply return the product, even your empty bottles, anytime within [GuaDays] days of your purchase and you’ll receive a full, no-questions-asked refund (minus shipping and handling fees)", "du skal blot returnere produktet, selv dine tomme flasker, når som helst inden for [GuaDays] dage efter dit køb, og du vil modtage en fuld tilbagebetaling uden spørgsmål (minus forsendelses- og ekspeditionsgebyrer)")
 .replace("Terms", "Betingelser")
 .replace("Privacy", "Privatlivspolitik")
 .replace("Contact", "Kontakt")
