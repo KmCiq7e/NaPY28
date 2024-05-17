@@ -6,7 +6,7 @@ document.body.innerHTML = document.body.innerHTML
 .replace("Contact", "Kontakt")
 .replace("References", "Referencer")
 .replace("Return", "Returpolitik")
-.replace("Shipping", "Forsendelse")
+.replaceAll("Shipping", "Forsendelse")
 .replace("Disclaimer", "Ansvarsfraskrivelse")
 .replace("Report Spam", "Rapporter Spam")
 .replace("Please, select your country below", "Vælg venligst dit land nedenfor")
