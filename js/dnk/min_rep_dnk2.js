@@ -1,0 +1,18 @@
+var today = "den " + getNow.getDate() + ". " + getdayMonth[(getNow.getMonth())] + " " + thisYear + ".";
+if (document.getElementById("today1") !== null) {document.getElementById("today1").innerHTML = today;}
+document.body.innerHTML = document.body.innerHTML
+.replace("Terms", "Betingelser")
+.replace("Privacy", "Privatlivspolitik")
+.replace("Contact", "Kontakt")
+.replace("References", "Referencer")
+.replace("Return", "Returpolitik")
+.replace("Shipping", "Forsendelse")
+.replace("Disclaimer", "Ansvarsfraskrivelse")
+.replace("Report Spam", "Rapporter Spam")
+.replace("Order Now. All Rights Reserved.", "Bestil Nu. Alle rettigheder forbeholdes.")
+.replace("Please, select your country below", "Vælg venligst dit land nedenfor")
+.replace("If your country is not listed, click in the button below", "Hvis dit land ikke er på listen, skal du klikke på knappen nedenfor")
+.replaceAll("PROCEED HERE", "FORTSÆT HER")
+.replace("Try <span", "Prøv <span")
+.replace("Today!", "I dag!")
+.replace("All Rights Reserved", "Alle rettigheder forbeholdes")
