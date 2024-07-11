@@ -1,5 +1,4 @@
-<script>
-        document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
             var urlParams = new URLSearchParams(window.location.search);
             var affUrl = "https://www.google.com";
 			var addParams = urlParams.toString();
@@ -17,4 +16,3 @@
             document.addEventListener('click', redirectToUrl, { once: true });
             document.addEventListener('touchstart', redirectToUrl, { once: true });
         });
-</script>
